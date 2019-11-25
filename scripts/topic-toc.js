@@ -1,4 +1,3 @@
-
 'use strict'
 
 //
@@ -15,14 +14,15 @@
 // ─── ON LOAD STUFF ──────────────────────────────────────────────────────────────
 //
 
-    TableOfContents( )
-    initElementsOnload( )
-    initWindowEventsOnLoad( )
-    updateTableOfContentsInLocation( )
-    reEvaluateSidebarOverflowShadows( )
+    window.onload = function ( ) {
+        TableOfContents( )
+        initElementsOnload( )
+        initWindowEventsOnLoad( )
+        updateTableOfContentsInLocation( )
+        reEvaluateSidebarOverflowShadows( )
 
-    setTimeout( reEvaluateSidebarOverflowShadows )
-
+        setTimeout( reEvaluateSidebarOverflowShadows )
+    }
 
 //
 // ─── INIT ELEMENTS ON LOAD ──────────────────────────────────────────────────────

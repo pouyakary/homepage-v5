@@ -127,23 +127,23 @@
     }
 
     .kary-topic-page-article blockquote {
-        color: rgb(90, 90, 90);
-        margin-right: 0;
-        margin-left: auto;
-        margin-top: 0.8rem;
-        margin-bottom: 1rem;
-        max-width: fit-content;
+        color:              rgb(90, 90, 90);
+        margin-right:       0;
+        margin-left:        auto;
+        margin-top:         0.8rem;
+        margin-bottom:      1rem;
+        max-width:          fit-content;
     }
 
     .kary-topic-page-article blockquote p {
-        font-family: "Source Code Pro" !important;
-        font-weight: 500;
-        font-size: 1rem !important;
+        font-family:    "Source Code Pro" !important;
+        font-weight:    500;
+        font-size:      1rem !important;
     }
 
     .kary-topic-page-article blockquote p a {
-        color: inherit !important;
-        background: none;
+        color:          inherit !important;
+        background:     none;
     }
 
     @media ( max-width: 26cm ) {
@@ -656,6 +656,23 @@
         font-weight:    bold;
         font-size:      1.2rem;
         text-align:     center;
+    }
+
+/*
+ * ─── GALLERY ────────────────────────────────────────────────────────────────────
+ */
+
+    gallery {
+        display:            flex;
+        max-width:          100%;
+        flex-wrap:          wrap;
+        align-content:      space-between;
+    }
+
+    gallery img {
+        flex:           auto;
+        max-width:      45%;
+        margin-right: 5%;
     }
 
 /* ──────────────────────────────────────────────────────────────────────────────── */

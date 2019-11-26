@@ -11,6 +11,10 @@
         color:      #141414;
     }
 
+    .kary-topic-page-article {
+        max-width: 1200px;
+    }
+
     .kary-topic-page-article ul {
         margin:     0;
     }
@@ -21,10 +25,11 @@
         padding-bottom:     0.5rem;
     }
 
-    @media ( max-width: 550px ) {
-            .kary-topic-page-article p {
-                line-height:    1.7;
-            }
+    @media screen and (max-width: 10cm) {
+        .kary-topic-page-article p {
+            font-size:      1.4rem !important;
+            line-height:    1.4 !important;
+        }
     }
 
     .kary-topic-page-article code {
@@ -62,17 +67,6 @@
 
     .kary-topic-page-article p {
         line-height:    1.6 !important;
-    }
-
-    @media ( max-width: 640pt ) {
-            .kary-topic-page-article {
-                font-size:      1.4rem !important;
-            }
-
-            .kary-topic-page-article p {
-                font-size:      1.4rem !important;
-                line-height:    1.9 !important;
-            }
     }
 
     .kary-topic-page-spacer {

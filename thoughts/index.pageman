@@ -10,7 +10,7 @@ back: media/back.jpg
 # Writings from time to time
 These are some of stuff that I write from time to time when they come to my mind. I have found it to be rather more fun when these writings are published os stylish PDF files, each having it's own theme and style.
 
-
-
+<br>
 --- end
 
+{% include thoughts-view.html tag="all" %}

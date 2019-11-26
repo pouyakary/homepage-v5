@@ -1,0 +1,14 @@
+
+<link rel="stylesheet" href="/styles/thoughts-view.css">
+
+<div class="thoughts-container">
+    {%- for thought in site.data.thoughts -%}
+        <a class="thought-box" href="{{ site.baseurl }}thoughts/library/{{ thought.file }}">
+            <div class="thought-title">{{ thought.name }}</div>
+            <div class="thought-description-box">
+                <div class="thought-description">{{ thought.description}}</div>
+                <div class="thought-arrow">&LongRightArrow;</div>
+            </div>
+        </a>
+    {%- endfor -%}
+</div>

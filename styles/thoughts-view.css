@@ -60,3 +60,21 @@
         letter-spacing:     0.5rem !important;
     }
 }
+
+@media screen and ( max-width: 550px ) {
+    .thought-box {
+        width:              calc( 100% - 3rem );
+        max-width:          calc( 100% - 3rem );
+        min-width:          calc( 100% - 3rem );
+        margin-right:       0;
+        margin-bottom: 2rem;
+    }
+
+    .thought-title {
+        font-size: 1.3rem;
+    }
+
+    .thought-description {
+        font-size: 1.5rem;
+    }
+}

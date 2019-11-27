@@ -390,6 +390,24 @@
       year: 2013
       description: Chapter was the my third attempt to create a command line text editor. It used a whole new way to manage the screen and had a lots of updated algorithms and used a lots of Kary Framework power goodies but at the end it was too buggy to fix and also got abandoned.
 
+# ─── TYPOGRAPHY ─────────────────────────────────────────────────────────────────
+
+- topic: Typography
+  projects:
+    - name: Pacifica
+      topics:
+        - font
+      image: https://user-images.githubusercontent.com/57100914/69765172-2871ea00-1188-11ea-9e30-094faca7e3c3.jpg
+      year: 2019
+      description: Pacifica is a display type that is designed to be used in large sizes. It has a narrow feel and a set of carefully developed kernings that makes the intesity of the typeface rather interesting.
+
+    - name: Magnifier
+      topics:
+        - font
+      image: https://user-images.githubusercontent.com/57100914/69765171-27d95380-1188-11ea-8d34-7aac422f6e3c.jpg
+      year: 2019
+      description: The idea behind this typeface was to have the feeling of a tick marker, something like the Marker Felt typeface.
+
 #
 # ─── MARKUP AND LAYOUT ──────────────────────────────────────────────────────────
 #
@@ -549,6 +567,20 @@
       year: 2015
       description: Kary Framework &mdash;originally targeting .NET&mdash; was a String Manipulation Framework. It had tools for visually aligning, lay-outing, manipulating, and styling strings. It also had tools for creating UIs with strings and also had Terminal Widgets for creating rich Text UIs.
 
+    - name: Kary Nota
+      topics:
+        - development
+        - terminal
+        - text
+        - math
+        - math-notation
+        - notation
+        - calculator
+      image: https://user-images.githubusercontent.com/57100914/69766242-56592d80-118c-11ea-9ea4-c70349e88f70.png
+      website: http://codes.kary.us/nota/nota
+      year: 2019
+      description: Nota is a terminal calculator with a rich language that renders mathematical notations in beautiful ASCII art. After making Intactus, I wanted to perfect what I had made. Nota renders mathematical notations in the best way it can within the terminal and gives the user a very powerful language to express math.
+
     - name: Intactus
       topics:
         - development
@@ -556,9 +588,8 @@
         - framework
         - text
       image: https://user-images.githubusercontent.com/2157285/40429669-7d58b758-5eb8-11e8-8e9f-8135f3dfe86b.png
-      website: https://github.com/pmkary/intactus
       year: 2015
-      description: Intactus &mdash;Int in Latin&mdash; is a framework that extends the Kary Framework for creating Mathematical Notations and Charts is UTF-8 characters.
+      description: Intactus &mdash;Int in Latin&mdash; was a framework that extends the Kary Framework for creating Mathematical Notations and Charts is UTF-8 characters.
 
     - name: Note
       topics:

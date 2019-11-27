@@ -39,34 +39,6 @@
         padding:        2rem 4rem 5rem 4rem;
     }
 
-    @media only screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
-            .homepage {
-                padding:            1.5rem !important;
-                padding-bottom:     2rem !important;
-                max-width:          none;
-                margin:             0;
-            }
-    }
-
-    @media (min-width: 350px) {
-            .main-title {
-                padding:        3rem;
-                font-size:      3rem;
-            }
-
-            .homepage {
-                padding:    2.5rem;
-            }
-
-            .row {
-                padding: 0;
-            }
-
-            .proj-orchestra.boxing {
-                margin: 0;
-            }
-    }
-
 /*
  * ─── TABS ───────────────────────────────────────────────────────────────────────
  */
@@ -140,14 +112,6 @@
         height:         calc( ( 1000px / 30vw ) * 23vw );
         max-height:     28rem;
         overflow:       hidden;
-    }
-
-    @media ( max-width: 550px ) {
-            .proj-box {
-                height:         calc( ( 1000px / 30vw ) * 40vw ) !important;
-                max-height:     40rem !important;
-
-            }
     }
 
     .pic {

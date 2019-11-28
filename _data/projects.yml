@@ -63,7 +63,7 @@
         - cgi
       image: https://user-images.githubusercontent.com/2157285/40540554-d2f77372-602d-11e8-8429-57c9fb1b479d.png
       year: 2018
-      website: http://kary.us/toys/shaders/
+      website: https://kary.us/toys/shaders/
       description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
     - name: Quartz Compositions
@@ -187,7 +187,7 @@
       topics:
         - research
         - development
-      website: http://kary.us/toys/numerax
+      website: https://kary.us/toys/numerax
       image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
       year: 2015
       description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
@@ -204,7 +204,7 @@
       topics:
         - graph
         - math
-      website: http://kary.us/toys/workout
+      website: https://kary.us/toys/workout
       image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
       year: 2018
       description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
@@ -271,7 +271,7 @@
       topics:
         - research
         - development
-      website: http://kary.us/comment
+      website: https://kary.us/comment
       image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
       year: 2015
       description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages.
@@ -407,7 +407,14 @@
         - font
       image: https://user-images.githubusercontent.com/57100914/69765171-27d95380-1188-11ea-8d34-7aac422f6e3c.jpg
       year: 2019
-      description: The idea behind this typeface was to have the feeling of a tick marker, something like the Marker Felt typeface.
+      description: The idea behind this typeface was to have the feeling of a tick marker, something like the Marker Felt typeface and therefore Magnifier is a bold display type trageted for when the shape of the marker is needed.
+
+    - name: Spacium
+      topic:
+        - font
+      image: https://user-images.githubusercontent.com/57100914/69800875-56d4e100-11eb-11ea-9995-b6071a1709f4.png
+      year: 2012
+      description: Designed to have a feel of future. I designed it when I was a kid and therefore it also much more amature and that gives it a certain feel so to speek.
 
 #
 # ─── MARKUP AND LAYOUT ──────────────────────────────────────────────────────────

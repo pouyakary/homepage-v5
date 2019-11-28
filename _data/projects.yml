@@ -29,7 +29,7 @@
       topics:
         - research
         - development
-      website: https://github.com/pmkary/orchestra
+      website: http://codes.kary.us/orchestra/hall
       image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
       year: 2016
       description: Orchestra Studio is an IDE designed specially for Orchestra. It has an editor for Orchestra, Contains all the compilers used to compile and decompile Orchestra, Comes with a playground to write testing for the pattern, an offilne documentation that is integrated to the visual editor, and has extensions for other editors so that one can open a regexp from those editors in Orchestra and edit them.
@@ -37,7 +37,7 @@
     - name: Concerto Compiler
       topics:
         - development
-      website: https://github.com/pmkary/concerto
+      website: http://codes.kary.us/orchestra/concerto
       image: https://user-images.githubusercontent.com/2157285/40433736-eb600004-5ec1-11e8-89cc-23c186c0b672.png
       year: 2016
       description: Concerto is an Orchestra Decompiler that compiles Regular Expressions written in the ECMAScript Specification to Orchestra Language. It comes bundled with the Orchestra Studio.
@@ -63,7 +63,7 @@
         - cgi
       image: https://user-images.githubusercontent.com/2157285/40540554-d2f77372-602d-11e8-8429-57c9fb1b479d.png
       year: 2018
-      website: http://shaders.toys.kary.us/
+      website: http://kary.us/toys/shaders/
       description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
     - name: Quartz Compositions
@@ -88,7 +88,7 @@
       topics:
         - research
         - development
-      website: https://github.com/pmkary/karyscript
+      website: http://codes.kary.us/karyscript/compiler
       image: https://user-images.githubusercontent.com/2157285/34886804-85f5d0a8-f7d9-11e7-932b-7253407e3522.png
       year: 2017
       description: KaryScript's compiler is a JavaScript compiler bundeled to one file. It can be embedded to any kind of JavaScript runtime such as Web, Node and Rhino and compile KaryScript to ES6. It also comes with a command line interface that can act as a language server too.
@@ -96,7 +96,7 @@
     - name: KaryScript Monaco
       topics:
         - development
-      website: https://github.com/pmkary/karyscript-monaco
+      website: http://codes.kary.us/karyscript/monaco
       image: https://cloud.githubusercontent.com/assets/2157285/23721115/0da4236a-0456-11e7-8257-34316f49f713.png
       year: 2017
       description: An editor based on Microsoft's <a href="https://github.com/microsoft/monaco-editor">Monaco Editor</a> that comes with Kary Pro Colors, KaryScript Monarch Definitions and Monaco Comment IV integrations which means it's a full featured editor for KaryScript that can be integrated to web pages.
@@ -143,7 +143,7 @@
         - themes
         - themex
       image: https://user-images.githubusercontent.com/2157285/40503504-7fce4250-5fa3-11e8-9ead-1ac569c941ec.png
-      website: https://github.com/pmkary/ProColors
+      website: http://codes.kary.us/procolors/definitions
       year:
       year: 2016
       description: Pro Colors is a color scheme for code highlighting. It's designed to have a look that is pretty and feels like candy because most developer tools do not look like pretty, It's designed to have a homogenous color distribution and in such way that pretty colors are near each other. It's also designed to support as much as tokens as possible to have to most accurate coloring.
@@ -164,7 +164,7 @@
         - themex
         - color-scheme
       image: https://user-images.githubusercontent.com/2157285/40503609-e32e22ac-5fa3-11e8-8760-21f885b0d65c.png
-      website: https://github.com/pmkary/themeX
+      website: http://codes.kary.us/procolors/themeX
       year: 2016
       description: themeX is a color scheme generator. It solves some of the major problems in composing cross-editor color schemes by defining a single file that contains tokens, color schemes, and let's the user define color variables. Using this method one can define multiple color schemes via one theme, for example a theme that has Light/Dark versions is easier to be made in themeX. themeX then compiles the theme for different editors making it easy to mailing a singular code-base.
 
@@ -178,7 +178,7 @@
       topics:
         - graph
         - math
-      website: https://github.com/pmkary/graph
+      website: http://codes.kary.us/apps/graph
       image: https://cloud.githubusercontent.com/assets/2157285/17836282/0665fe62-67a2-11e6-9c78-c4d4acb87535.png
       year: 2016
       description: A graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
@@ -187,7 +187,7 @@
       topics:
         - research
         - development
-      website: http://numerax.toys.kary.us
+      website: http://kary.us/toys/numerax
       image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
       year: 2015
       description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
@@ -195,7 +195,7 @@
     - name: Octobass
       topics:
         - graph
-      website: https://github.com/pmkary/octobass
+      website: http://codes.kary.us/libraries/octobass
       image: https://user-images.githubusercontent.com/2157285/40444802-94feded8-5edf-11e8-936b-a33b59516c08.jpg
       year: 2018
       description: Octobass is a dependency execution framework for developers. It gets a dependency graph and then executes a function on each node by first evaluating the dependencies.
@@ -204,7 +204,7 @@
       topics:
         - graph
         - math
-      website: http://workout.toys.kary.us
+      website: http://kary.us/toys/workout
       image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
       year: 2018
       description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
@@ -262,7 +262,7 @@
         - development
         - comment
         - commentiv
-      website: https://github.com/pmkary/comment-3
+      website: http://codes.kary.us/comment/3
       image: https://user-images.githubusercontent.com/2157285/40885625-3ce6a3bc-673f-11e8-8d6e-53970b8a1626.png
       year: 2015
       description: First edition of Kary Comment Generators that was designed for macOS with native technologies. It soon proved to be useful and the multi platform Comment IV was made.
@@ -271,7 +271,7 @@
       topics:
         - research
         - development
-      website: http://comment.kary.us
+      website: http://kary.us/comment
       image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
       year: 2015
       description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages.
@@ -298,7 +298,7 @@
         - language-tools
         - interpreter
       image: https://user-images.githubusercontent.com/2157285/40434541-d6f0fdb0-5ec3-11e8-81e4-732657948114.png
-      website: https://github.com/pmkary/swifty
+      website: http://codes.kary.us/arendelle/swifty
       year: 2015
       description: Swifty was a Swift/Objective-C based interpreter for Arendelle that powered Arendelle for iOS and the also had a macOS command line shell. It supported Arendelle up to version 2XIV
 
@@ -307,12 +307,13 @@
         - development
       image: https://user-images.githubusercontent.com/2157285/40434879-9da18376-5ec4-11e8-981d-5f0323f2263f.png
       year: 2015
+      website: http://codes.kary.us/arendelle/arcco
       description: Arcco was a fork of <a href="https://github.com/jashkenas/docco">Docco</a> by Jeremy Ashkenas specially designed for Arendelle
 
     - name: Gerda
       topic:
         - development
-      website: https://github.com/pmkary/gerda
+      website: http://codes.kary.us/arendelle/gerda
       image: https://user-images.githubusercontent.com/2157285/40435189-5c0bc574-5ec5-11e8-85d7-a175d8ee151c.png
       year: 2016
       description: Garda is was the stand alone context-aware autosuggestion server for Arendelle. Gerda scanned the code without parsing it in a linear way and therefore it could provide suggestions by the speed of O(n)
@@ -321,7 +322,7 @@
       topic:
         - development
         - highlighter
-      website: https://github.com/pmkary/marker.js
+      website: http://codes.kary.us/arendelle/marker
       image: https://user-images.githubusercontent.com/2157285/40435382-c8292134-5ec5-11e8-86d9-c72f07de55a6.png
       year: 2014
       description: Marker was Arendelle's web syntax highlighter. It could generate a colored HTML from given Arendelle codes on the fly in the speed of O(n). It only supported Arendelle till version 1.18
@@ -330,7 +331,7 @@
       topic:
         - development
         - 3d
-      website: https://github.com/pmkary/sketchup-grid-importer
+      website: http://codes.kary.us/arendelle/sketchup-grid-importer
       image: https://user-images.githubusercontent.com/2157285/40448548-15c257f6-5eeb-11e8-8d76-c54c6f5912fd.png
       year: 2015
       description: A tool that loads the rendered Arendelle blueprints using the Arendelle Grid Files into SketchUp for 3d Printing.
@@ -421,7 +422,7 @@
         - markup
         - education
         - markdown
-      website: https://github.com/pmkary/pageman
+      website: http://codes.kary.us/pageman/compiler
       image: https://user-images.githubusercontent.com/2157285/40428139-e2ac43b2-5eb4-11e8-9659-d25228d21b02.png
       year: 2016
       description: Pageman is a basic HTML processor designed to be used alongside the Jekyll to develop this website but grown into a thing for itself. Pageman let's one use Markdown, HTML, Legend and any other language in one file as well as providing C-like comments.
@@ -455,7 +456,7 @@
         - markup
         - language
         - markdown
-      website: https://github.com/pmkary/legend
+      website: http://codes.kary.us/pageman/legend
       image: https://user-images.githubusercontent.com/2157285/40469497-00c06e8c-5f46-11e8-9def-babf620d6921.png
       year: 2016
       description: Legend is an extension to markdown that compiles to a very special HTML format optimized for side bar footnotes as in books. This website uses Legend for it's side notes.
@@ -467,7 +468,7 @@
         - markup
         - language
         - markdown
-      website: https://github.com/pmkary/timpani
+      website: http://codes.kary.us/libraries/timpani
       image: https://user-images.githubusercontent.com/2157285/40472111-ccbfc97c-5f4d-11e8-8bf3-1b93983daa96.png
       year: 2017
       description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps in React Native and similar other platforms where computation is expensive.
@@ -528,7 +529,7 @@
         - development
         - web
         - framework
-      website: https://github.com/pmkary/cozy
+      website: http://codes.kary.us/libraries/cozy
       image: https://user-images.githubusercontent.com/2157285/40476346-12d1b01e-5f59-11e8-97e2-0708dcd5c29e.jpg
       year: 2018
       description: Cozy is a web framework that is not a framework but rather a base project. It implements a Functional Reactive Programming structure with Storage, View and mid-level toolings on TypeScript. It creates a project in such way that only a TypeScript compiler be enough for compiling/bundling and minimizing the code.
@@ -544,7 +545,7 @@
       topics:
         - development
         - music
-      website: https://github.com/pmkary/tambourine
+      website: http://codes.kary.us/libraries/tambourine
       image: https://user-images.githubusercontent.com/2157285/40477924-f063778e-5f5c-11e8-867b-ca295a802f40.jpg
       year: 2017
       description: Tambourine is a framework for writing musical theory software. Main goal is to have a library capable of computing musical theory so that one can write a Harmonizer Engine on top of it.
@@ -596,7 +597,7 @@
         - development
         - terminal
       image: https://user-images.githubusercontent.com/2157285/40429929-15081314-5eb9-11e8-8fc9-521fc06518b6.png
-      website: https://github.com/pmkary/note
+      website: http://codes.kary.us/apps/note
       year: 2015
       description: Note is a demo app for Kary Framework that showcases some of its powers. Multi
 
@@ -606,7 +607,7 @@
         - text
         - demo
         - game
-      website: https://github.com/pmkary/series
+      website: http://codes.kary.us/toys/series
       image: https://user-images.githubusercontent.com/2157285/40537540-72b3f5b6-6024-11e8-95d0-b17794eff3d1.png
       year: 2015
       description: Series is a game in which one has to find the formula of a series. It's made using Kary Framework and Monodraw to show the power of the textual interface creation.
@@ -617,7 +618,7 @@
         - terminal
         - framework
         - text
-      website: https://github.com/pmkary/go-corelib
+      website: http://codes.kary.us/libraries/go-corelib
       image: https://user-images.githubusercontent.com/2157285/40479222-55380e38-5f60-11e8-831a-f52bac128f20.jpg
       year: 2017
       description: Go Corelib is a reimplementation of the original Kary Framework for the Go Language with some extra goodies and new capabilities
@@ -627,7 +628,7 @@
         - development
         - terminal
         - language
-      website: https://github.com/pmkary/clavinet
+      website: http://codes.kary.us/libraries/clavinet
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       year: 2017
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
@@ -643,7 +644,6 @@
         - mental-health
         - web
         - webextension
-      website: http://health.kary.us/
       image: https://user-images.githubusercontent.com/2157285/40536185-8b1da56a-6020-11e8-9550-c7336ec76842.png
       year: 2018
       description: Since gamification methods are being used to keep us release dopamine and stay within a website for a long time, This WebExtension tries to remove all gamification elements of a website like counters, notifications, related suggestions, commenting, like and any other method used to keep you stuck in a web page.
@@ -653,7 +653,6 @@
         - mental-health
         - web
         - webextension
-      website: http://health.kary.us/
       image: https://user-images.githubusercontent.com/2157285/40536292-e03e3906-6020-11e8-84bf-129466a9f8e0.png
       year: 2018
       description: For those of us with bad habits, Self Stopper is a WebExtension that blocks a given set of web addresses. So if you just keep returning to Twitter and find it a waste of your time you can simply block it to yourself!
@@ -678,7 +677,7 @@
         - browser
         - fork
       image: https://cloud.githubusercontent.com/assets/2157285/21816130/3bcfae62-d774-11e6-884b-694a3e5c8ade.png
-      website: https://github.com/pmkary/pirate
+      website: http://codes.kary.us/apps/pirate
       year: 2017
       description: Pirate is a fork of <a href="https://brave.com/">Brave Browser</a> that is just a little bit more pretty because I found the original browser unbearable.
 
@@ -726,7 +725,7 @@
         - terminal
         - fork
       image: https://cloud.githubusercontent.com/assets/2157285/21894736/849c3624-d8f5-11e6-800f-db999f6ac713.png
-      website: https://github.com/pmkary/telephone
+      website: http://codes.kary.us/apps/telephone
       year: 2017
       description: A fork of <a href="https://github.com/railsware/upterm">Upterm</a> Terminal with a few goodies like a much better auto-suggestion algorithm supporting T9 search and a light and fun theme.
 

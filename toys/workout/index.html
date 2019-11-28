@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" manifest="workout.appcache">
+<head>
+    <!-- main meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Workout</title>
+
+    <!-- katex -->
+    <script src="resources/katex.min.js"></script>
+    <link rel="stylesheet" href="resources/katex.min.css">
+
+    <!-- springy tools -->
+    <script src="resources/jquery.min.js"></script>
+    <script src="resources/springy.js"></script>
+    <script src="resources/springyui.js"></script>
+
+    <!-- no bounce effect -->
+    <script src="resources/noBounce.js"></script>
+
+    <!-- workout core files -->
+    <script src="bin/core.js"></script>
+    <script src="js/helpers.js"></script>
+    <link rel="stylesheet" href="resources/sheet.css">
+
+    <!-- flaticon  -->
+    <link rel="stylesheet" href="resources/flaticon/flaticon.css">
+
+    <!-- ios offline web app meta and information -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="hidden">
+    <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no">
+    <link rel="apple-touch-icon" href="resources/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.png"/>
+</head>
+<body>
+    <container>
+        <h2>Kary Workout</h2>
+
+        <div id="main-container">
+            <div id="input-container">
+                <tool-title>Equations</tool-title>
+                <textarea id="code-input" class="box" rows="10"></textarea>
+                <div id="hit-box">
+                    Available Functions: <span class="hint-values">abs, acos, acosh,
+                    asin, asinh, atan, atan2, atanh, cbrt, ceil, clz32, cos, cosh, exp,
+                    expm1, floor, fround, hypot, imul, log, log10, log1p, log2, max, min,
+                    pow, random, round</span> &mdash; Available Constants:
+                    <span class="hint-values">E, PI</span>
+                </div>
+            </div>
+
+            <div id="monitor-view">
+                <div id="monitor-view-split-view">
+                    <div>
+                        <tool-title>Results</tool-title>
+                        <div id="results" class="box"></div>
+                    </div>
+                    <div>
+                        <tool-title>Dependencies</tool-title>
+                        <div id="katex-display" class="box"></div>
+                    </div>
+                </div>
+
+                <tool-title>Dependency Graph</tool-title>
+                <canvas id="monitor-graph-view" class="box"/>
+            </div>
+        </div>
+    </container>
+
+    <div id="tab-bar" class="hidden">
+        <div class="tab active" id="editor-tab-button">
+            <div class="tab-icon">&#xf129;</div>
+            <div class="tab-caption">Equation Editor</div>
+        </div>
+
+        <div class="tab" id="results-tab-button">
+            <div class="tab-icon">&#xf126;</div>
+            <div class="tab-caption">Computation Results</div>
+        </div>
+    </div>
+</body>
+</html>

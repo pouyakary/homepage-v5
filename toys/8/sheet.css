@@ -1,0 +1,33 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-color: black;
+    color: #00B7FF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#screen {
+    font-size: 6vw;
+    align-content: center;
+    vertical-align: center;
+    padding-top: 41vh;
+    width: calc( 100vw - 100px );
+    height:59vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media ( max-width: 500px ) {
+    #screen {
+        font-size: 12vw;
+    }
+}

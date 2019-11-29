@@ -16,7 +16,7 @@ body {
 }
 
 container {
-    max-height:     fit-content;
+    max-height:    calc( 100% - env( safe-area-inset-bottom ) );
 }
 
 #main-container {
@@ -113,6 +113,7 @@ textarea {
     position:               fixed;
     right:                  0;
     width:                  100vw;
+    padding-bottom:         env(safe-area-inset-bottom);
 }
 
 .tab {
@@ -194,7 +195,7 @@ tool-title {
 
     #code-input {
         flex:           1;
-        height:         calc( 100vh - 230pt - 70px );
+        height:         calc( 100vh - 230pt - 70px - env(safe-area-inset-bottom) );
         min-width:      calc( 100vw - 80pt );
     }
 

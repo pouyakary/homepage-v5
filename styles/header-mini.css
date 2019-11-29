@@ -18,7 +18,7 @@
         padding-right:          env(safe-area-inset-right);
     }
 
-    @media ( max-width: 550px ) {
+    @media ( max-width: 500pt ) {
             #kary-header {
                 position:       relative;
             }
@@ -34,7 +34,7 @@
         padding-top:        0.8rem;
     }
 
-    @media ( max-width: 550px ) {
+    @media ( max-width: 500pt ) {
             #kary-nav-logo {
                 padding-top:        1.2rem;
                 padding-bottom:     0;
@@ -81,7 +81,7 @@
         border-color:       #5BA55C;
     }
 
-    @media ( max-width: 550px ) {
+    @media ( max-width: 500pt ) {
             #kary-nav-links, #kary-nav-logo {
                 clear:      both;
                 float:      none;
@@ -98,7 +98,7 @@
         height:     40px;
     }
 
-    @media ( max-width: 550px ) {
+    @media ( max-width: 500pt ) {
             #kary-header-margin {
                 display:    none;
             }
@@ -109,7 +109,7 @@
         padding-left:       1.4rem;
     }
 
-    @media ( max-width: 550px ) {
+    @media ( max-width: 500pt ) {
             #kary-header-logo {
                 height:     1.8rem;
             }

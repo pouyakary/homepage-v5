@@ -15,10 +15,10 @@
         font-size:      1.4rem;
     }
 
-    @media ( min-width: 320px ) and ( max-width: 500px ) {
+    @media ( max-width: 450pt ) {
             .projects-project-description-box h3 {
-                font-size:      1.6rem;
-                margin-bottom:  1rem;
+                font-size:          1.6rem;
+                margin-bottom:      1rem;
             }
     }
 
@@ -54,7 +54,7 @@
         max-width:          calc( 100% - env(safe-area-inset-left) - env(safe-area-inset-right));
     }
 
-    @media screen and ( max-width: 500px ) {
+    @media ( max-width: 500pt ) {
             .projects-project-box {
                 flex-direction:     column-reverse;
             }
@@ -78,13 +78,7 @@
         width:          100%;
     }
 
-    @media screen and ( max-width: 700px ) {
-            .kary-topic-page-article img {
-                max-width:      150pt !important;
-            }
-    }
-
-    @media screen and ( max-width: 500px ) {
+    @media ( max-width: 500pt ) {
             .kary-topic-page-article img {
                 margin-top:     1rem;
                 max-width:      100% !important;
@@ -97,14 +91,19 @@
 
     .projects-project-description {
         font-family:    "EB Garamond";
-        font-size:      1.4rem;
-        line-height:    1.5;
+        font-size:      1.2rem;
+        line-height:    1.6 !important;
     }
 
-    @media screen and (max-width: 10cm) {
+    @media (max-width: 800pt) {
+        .projects-project-description {
+            font-size:      1.2rem;
+        }
+    }
+
+    @media (max-width: 700pt) {
             .projects-project-description {
                 font-size:      1.4rem;
-                line-height:    1.4;
             }
     }
 
@@ -128,17 +127,23 @@
         font-weight:            500;
         margin-top:             1em !important;
         text-decoration:        none !important;
-        border-bottom:          2px solid #AA630C;
-        transition-duration:    0.3s !important;
+        border-bottom:          1pt solid #AA630C;
+        transition-duration:    0.2s !important;
         padding-bottom:         1rem;
     }
 
     .projects-project-website:focus, .projects-project-website:hover {
-        transition-duration:    0.3s !important;
-        padding-bottom:         0rem;
+        transition-duration:    0.2s !important;
+        padding-bottom:         0.2rem;
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (max-width: 800pt) {
+        .projects-project-website {
+            font-size:      1.2rem;
+        }
+    }
+
+    @media (max-width: 400pt) {
             .projects-project-website-container {
                 height:             fit-content;
                 max-height:         fit-content;
@@ -147,14 +152,14 @@
             }
 
             .projects-project-website {
-                font-size:      1.1rem !important;
+                font-size:      1.3rem;
                 border:         1px solid #AA630C;
                 padding:        3pt 7pt 5pt 7pt;
                 height:         fit-content;
             }
 
             .projects-project-website:active, .projects-project-website:focus, .projects-project-website:hover {
-                background:     #AA630C;
+                background:     rgba(204, 151, 38, 0.226);
                 color:          white;
                 padding:        3pt 7pt 5pt 7pt;
             }

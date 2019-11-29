@@ -13,13 +13,13 @@
         width:          100vw;
     }
 
-    @media ( max-width: 860px ) {
+    @media ( max-width: 860pt ) {
             html {
                 font-size:      10pt !important;
             }
     }
 
-    @media ( max-width: 500px ) {
+    @media ( max-width: 450pt ) {
         html {
             font-size:      11pt !important;
         }

@@ -21,15 +21,21 @@
 
     .kary-topic-page-article p {
         font-family:        "EB Garamond";
-        font-size:          1.25rem;
+        font-size:          1.2rem;
         padding-bottom:     0.5rem;
+        line-height:        1.4 !important;
     }
 
-    @media screen and (max-width: 10cm) {
+    @media (max-width: 800pt) {
         .kary-topic-page-article p {
-            font-size:      1.4rem !important;
-            line-height:    1.4 !important;
+            font-size:      1.2rem;
         }
+    }
+
+    @media (max-width: 700pt) {
+        .kary-topic-page-article p {
+                font-size:      1.4rem;
+            }
     }
 
     .kary-topic-page-article code {
@@ -75,22 +81,13 @@
 
     .kary-topic-page-article h2 {
         border-top:         1px solid black;
-        font-size:          0.7em;
+        font-size:          0.9rem;
         letter-spacing:     10px;
         margin-bottom:      14px;
         padding-bottom:     1px;
         padding-top:        4px;
         text-align:         right;
         text-transform:     uppercase;
-    }
-
-    @media screen and ( max-width: 500px ) {
-            .kary-topic-page-article h2 {
-                font-weight:        500;
-                font-size:          1rem !important;
-                line-height:        1.5;
-                letter-spacing:     0.5rem !important;
-            }
     }
 
     .kary-topic-page-article h3 {

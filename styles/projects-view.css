@@ -12,12 +12,13 @@
     }
 
     .projects-project-description-box h3 {
-
+        font-size:      1.4rem;
     }
 
     @media ( min-width: 320px ) and ( max-width: 500px ) {
             .projects-project-description-box h3 {
-                font-size:      1.4rem;
+                font-size:      1.6rem;
+                margin-bottom:  1rem;
             }
     }
 
@@ -39,7 +40,7 @@
  */
 
     .projects-topic-description {
-        font-size:          1.2rem;
+        font-size:          1.4rem;
         margin-bottom:      2rem;
     }
 
@@ -96,7 +97,7 @@
 
     .projects-project-description {
         font-family:    "EB Garamond";
-        font-size:      1.2rem;
+        font-size:      1.4rem;
         line-height:    1.5;
     }
 

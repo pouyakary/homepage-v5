@@ -33,10 +33,37 @@
         user-select:            none;
     }
 
+    @media (max-width: 450pt ) {
+        .main-title {
+            font-size: 3.2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 2.5rem;
+        }
+    }
+
+    @media (max-width: 400pt ) {
+        .main-title {
+            font-size: 2.7rem;
+        }
+    }
+
     .homepage {
         margin:         auto;
         max-width:      820pt;
         padding:        2rem 4rem 5rem 4rem;
+    }
+
+    @media (max-width: 450pt) {
+        .homepage {
+            padding: 0.5rem 3rem 5rem 3rem;
+        }
+    }
+
+    @media (max-width: 400pt) {
+        .homepage {
+            padding: 0.5rem 2.5rem 5rem 2.5rem;
+        }
     }
 
 /*

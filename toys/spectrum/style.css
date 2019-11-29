@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#spectrum {
+    flex: 2;
+    margin: auto;
+    user-select: none;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    flex: auto;
+    max-width: 300px;
+}
+
+#title {
+    color: white;
+    font-size: 20px;
+    font-family: "Avenir";
+    padding: 50px 50px 0 50px;
+    height: 100px;
+    user-select: none;
+}
+
+#by-pouya-kary {
+    display: block;
+    color: #aaa;
+    font-size: 10px;
+    padding-left: 65px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#input {
+    height: calc(100vh - 300px);
+    background-color: transparent;
+    font-family: 'Avenir';
+    font-size: 16px;
+    color: #ccc;
+    border: none;
+    resize: none;
+    background-color: black;
+    padding: 50px;
+    outline: none;
+}
+
+#input::selection {
+    background-color: rgb(28, 95, 116);
+}

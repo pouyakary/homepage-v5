@@ -12,15 +12,20 @@
     }
 
     #kary-footer-wrap {
-        display:            -moz-flex;
-        display:            -webkit-flex;
+        --kary-footer-wrap-left-margin:
+            min( 3rem, env(safe-area-inset-left) );
+        --kary-footer-wrap-right-margin:
+            min( 3rem, env(safe-area-inset-right) );
+        --kary-footer-wrap-width:
+            calc( 100vw );
+
         display:            flex;
         height:             100%;
-        margin-bottom:      3rem;
-        margin-left:        3rem;
-        margin-right:       1rem;
+        margin-bottom:      calc( 3rem + env(safe-area-inset-bottom) );
+        margin-left:        var( --kary-footer-wrap-left-margin );
+        margin-right:       var( --kary-footer-wrap-right-margin );
         padding-top:        3rem;
-        width:              calc( 100vw - 4rem);
+        width:              var( --kary-footer-wrap-width );
     }
 
     @media ( max-width: 720px ) {

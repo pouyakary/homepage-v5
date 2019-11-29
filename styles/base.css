@@ -54,6 +54,7 @@
         margin:             0;
         margin-bottom:      0.2em;
         padding:            0;
+        width:              calc( 100% - env(safe-area-inset-left) );
     }
 
     .unselectable {

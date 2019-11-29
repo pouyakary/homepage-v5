@@ -71,8 +71,10 @@
         overflow:               hidden;
         padding-bottom:         1.1rem;
         position:               fixed;
-        width:                  100%;
         z-index:                1;
+        width:                  calc( 100% - env(safe-area-inset-left) - env(safe-area-inset-right));
+        padding-left:           env(safe-area-inset-left);
+        padding-right:          env(safe-area-inset-right);
     }
 
     @media ( max-width: 550px ) {

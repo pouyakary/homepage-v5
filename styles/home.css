@@ -224,11 +224,15 @@
         border-color:       #7DA76F;
     }
 
-    .proj-graph {
+    .proj-nota {
         background-color:       #8C0000;
     }
 
-    .proj-graph deskdesk {
+    .proj-nota-pic {
+        background-size: cover;
+    }
+
+    .proj-nota deskdesk {
         border-color:       #C18000;
     }
 

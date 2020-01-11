@@ -1,7 +1,10 @@
-.document {
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+pre {
     margin: auto;
     max-width: fit-content;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Menlo', "Source Code Pro" !important;
+    white-space: pre;
 }
 
 @media (prefers-color-scheme: dark) {

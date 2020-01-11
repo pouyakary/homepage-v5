@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 body {
-    padding: 0;
     margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 680pt) {
+    body {
+        font-size: calc( 100vw / 56 );
+    }
 }
 
 pre {
     margin: auto;
     max-width: fit-content;
     font-family: 'Menlo', "Source Code Pro" !important;
-    white-space: pre;
 }
 
 @media (prefers-color-scheme: dark) {

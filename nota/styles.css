@@ -1,0 +1,12 @@
+.document {
+    margin: auto;
+    max-width: fit-content;
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}

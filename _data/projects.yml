@@ -585,7 +585,7 @@
         - notation
         - calculator
       image: https://user-images.githubusercontent.com/57100914/69766242-56592d80-118c-11ea-9ea4-c70349e88f70.png
-      website: http://codes.kary.us/nota/nota
+      website: https://kary.us/nota
       year: 2019
       description: Nota is a terminal calculator with a rich language that renders mathematical notations in beautiful ASCII art. After making Intactus, I wanted to perfect what I had made. Nota renders mathematical notations in the best way it can within the terminal and gives the user a very powerful language to express math.
 

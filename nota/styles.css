@@ -22,7 +22,7 @@ body {
     padding-bottom:     4rem;
 }
 
-body, pre, code {
+body, monodraw {
     font-family:   Menlo, "NotaMenlo", "NotaHasklig";
 }
 
@@ -32,11 +32,13 @@ body, pre, code {
     }
 }
 
-pre {
+monodraw {
     margin:         auto;
     max-width:      fit-content;
     min-width:      fit-content;
     width:          fit-content;
+    white-space:    pre;
+    display:        block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,4 +46,9 @@ pre {
         background-color:       black;
         color:                  white;
     }
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
 }

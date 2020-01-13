@@ -11,32 +11,41 @@
     <link rel="icon" type="image/png" sizes="96x96" href="https://kary.us/media/general/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://kary.us/media/general/favicon/favicon-16x16.png">
 
+
+    <meta property="og:title" content="Nota Language by Kary">
+    <meta property="og:description" content="A beautiful terminal calculator with notation rendering so that you can have fun and taste in your command line">
+    <meta property="og:image" content="https://kary.us/nota/thumbnail.png">
+    <meta property="og:url" content="http://kary.us/nota/">
+
+    <meta property="og:site_name" content="Pouya Kary">
+
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <monodraw>─────────────────────────────────────────────────────────────  Kary Nota  ──────
+  <monodraw> ─────────────────────────────────────────────────────────────  Kary Nota  ──────
 
 
-    ┌────────────────────────────────────────────────────────────────────┐
-    │                                                                    │
-    │           1                                                        │
-    │          ───                                                       │
-    │           2                       2                     ⎜  e  ⎟    │
-    │  In[1]: ───── + ───────────────────────────────────── + ⎜ ─── ⎟    │
-    │           3          _______________________________    ⎣  2  ⎦    │
-    │                     ╱     ┌  π  ┐ 2       ┌  π  ┐ 2                │
-    │                    ╱  Sin │ ─── │   + Cos │ ─── │                  │
-    │                  ╲╱       └  2  ┘         └  2  ┘                  │
-    │                                                                    │
-    │                                                                    │
-    │ Out[1]: 3.1666666666666665                                         │
-    │                                                                    │
-    ├───────────────────────────────────────────────────────┬────────────┘
-      Nota is a powerful terminal calculator with rich
-    │ mathematical notation and chart rendering. It gives   │
-      you a beautiful language that is readable and easy to
-    │ type and then renders your input into a beautiful     │
-      notation with result
-    └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
+    ┌────────────────────────────────────────────────────────────┐
+    │                                                            │
+    │           1                                                │
+    │          ───                                               │
+    │           2                   2                  ⎜  -e  ⎟  │
+    │  In[1]: ───── + ────────────────────────────── + ⎜ ──── ⎟  │
+    │           3           _______________________    ⎣  4   ⎦  │
+    │                      ╱     ┌  π  ┐ 2     1                 │
+    │                     ╱  Sin │ ─── │   + ─────               │
+    │                    ╱       └  2  ┘        5                │
+    │                  ╲╱                     -2                 │
+    │                                                            │
+    │ Out[1]: 1.1986686986697146                                 │
+    │                                                            │
+    ├─────────────────────────────────────────────────────────┬──┘
+      Nota is a nice terminal calculator with rich  notation
+    │ rendering. It is designed for your quick calculations   │
+      and therefore provides you with a tiny and beautiful
+    │ language so you can express your ideas easily. Keep in  │
+      mind that Nota is all about beauty and ASCII art.
+    └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
 
 
                    ┌────────────────────────────────────────────────────────┐
@@ -59,15 +68,19 @@
                                   └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
 
 
+
     ┌──────────────────────────────────────────────────────────────────┐
-    │ First you should have <a href="https://www.gnu.org/software/make/">GNU Make</a> and <a href="https://docs.haskellstack.org/en/stable/install_and_upgrade/">Haskell Stack</a> installed. Then │
-    │ you have to run these commands within your terminal to install   │
-    │ nota. This will give you the command nota that you can run:      │
+    │ Nota is currently supported on the UNIX systems. It works great  │
+    │ under the macOS and Linux systems. It can also be installed      │
+    │ within the Windows machines but you have to do it manually. For  │
+    │ information on the windows check this page. For UNIX systems,    │
+    │ use one of the following automatic installation scripts:         │
     └──┬────────────────────────────────────────────────┬──────────────┘─ ─ ┐
        │ curl -sSL https://kary.us/nota/install.sh | sh │   Installation
-       │─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  or  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─├ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
+       ├────────────────────────────────────────────────┼ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘
        │ wget -qO- https://kary.us/nota/install.sh | sh │
        └────────────────────────────────────────────────┘
+
 
 
 
@@ -75,7 +88,7 @@
                    │ Language Grammar │
                    └────┬─────────────┘
                         │
-                        ├───────────────────────────────────────────────────┐
+      ─ ─ ─ ─ ─ ─ ─ ─ ─ ┼───────────────────────────────────────────────────┐
       Grammar Component │ Description                                       │
       ─ ─ ─ ─ ─ ─ ─ ─ ─ ┼───────────────────────────────────────────────────┤
       Normal Numbers    │ Numbers in Nota can be in the normal form.        │
@@ -110,7 +123,7 @@
       Negation          │ The only unary operator that Nota defines is the  │
                         │ value negation - operator. E.g: -13 + -sin[x].    │
       ─ ─ ─ ─ ─ ─ ─ ─ ─ ┼───────────────────────────────────────────────────┤
-      Parenthesis       │ Nota provides the parenthesis notation to reorder │
+      Parentheses       │ Nota provides the parenthesis notation to reorder │
                         │ precedence like: (1 + 2) * 3.                     │
       ─ ─ ─ ─ ─ ─ ─ ─ ─ ┼───────────────────────────────────────────────────┤
       Parentheses       │ Functions in Nota are written not with            │
@@ -132,6 +145,8 @@
                         │ = Value. So something like: Earth's Volume = 3/4  │
                         │ * pi * Earth's Radius^3.                          │
                         └───────────────────────────────────────────────────┘
+
+
 
 
 
@@ -313,8 +328,8 @@
           │                               │ for the Pi, every other │
              Out[2]: 1.618033988749895    │ identifier is available │
           │                               │ to be declared          │
-           ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─│                         │
-                                          ├─────────────────────────┘
+           ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─├─────────────────────────┘
+                                          │
                                           │
                                           │
                                           │
@@ -352,12 +367,25 @@
 
 
 
+               The idea to have lowercase and uppercase characters also
+               exists for the latin characters. All the single character
+               latin inputs will be inputed lowercase and if you add an
+               apostrophe to their end, they become uppercase:
+
+               ┌───┐    ┌───┐    ┌───┐    ┌───┐
+               │ a │───▶│ a │    │ a'│───▶│ A │
+               └───┘    └───┘    └───┘    └───┘
+
+
+
+
+
 
  ────────────────────────────────────────────────────────────────────────────────
 
             Copyright 2018-present by <a href="https://kary.us/">Pouya Kary</a>. All Rights Reserved.
-                     Made using Kary Framework and <a href="https://monodraw.helftone.com/">Monodraw</a>
 
-    </monodraw>
+                            This website is made using
+                   The Kary Framework and <a href="https://monodraw.helftone.com/">Monodraw</a> by Helftone</monodraw>
 </body>
 </html>

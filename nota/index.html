@@ -17,6 +17,8 @@
     <meta property="og:image" content="https://kary.us/nota/thumbnail.png">
     <meta property="og:url" content="http://kary.us/nota/">
 
+    <meta name="description" content="A beautiful terminal calculator with notation rendering so that you can have fun and taste in your command line">
+
     <meta property="og:site_name" content="Pouya Kary">
 
     <meta name="twitter:card" content="summary_large_image">
@@ -201,9 +203,9 @@
        │   1 ? 2   │ In[7]: 1 = 2   │        Equals       │ ●───┤ equals and 0
                    │                │                     │     │ otherwise
        ├ ─ ─ ─ ─ ─ ┼────────────────┼─────────────────────┤
-                   │                │                     │     │ Returns 1 if not
-       │   1 ! 2   │ In[8]: 1 ≠ 2   │        Equals       │ ●───┤ equals and 0
-                   │                │                     │     │ otherwise
+                   │                │                     │     │ Returns if 1
+       │   1 ! 2   │ In[8]: 1 ≠ 2   │      Not Equals     │ ●───┤ not equals and
+                   │                │                     │     │ 0 otherwise
        └ ─ ─ ─ ─ ─ ┴────────────────┴─────────────────────┘
              ▲              ▲                  ▲
              │              │                  │
@@ -257,9 +259,9 @@
 
 
                                                            ────┐
+                                                               │
+                                                               │
                      ●                                         │
-                     │                                         │
-                     │                                         │
            Log[x]  ──┼──  Logarithm of x of base e             │
                      │                                         │
         Log[b, x]  ──┼──  Logarithm of x of base b             │
@@ -307,6 +309,8 @@
    Sum[a, ..., b]  ──┼──  Arguments sum                        │
                      │                                         │
            Exp[x]  ──┼──  Natural exponent to the power of x   │
+                     │                                         │
+       Root[n, x]  ──┼──  "n"th root of x                      │
                      │                                         │
                      │                                         │
                      ●                                         │

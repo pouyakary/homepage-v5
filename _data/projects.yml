@@ -416,6 +416,15 @@
       year: 2012
       description: Designed to have a feel of future. I designed it when I was a kid and therefore it also much more amature and that gives it a certain feel so to speek.
 
+    - name: Kerning Template Generator
+      topics:
+        - font
+        - kerning
+      website: http://toys.kary.us/kerning-tool/
+      image: https://user-images.githubusercontent.com/2157285/74332970-352bd480-4dac-11ea-8e02-e750bd030040.png
+      year: 2020
+      description: This is a small tool designed to generate some good character combinations for each character so that the typeface designer can adjust the kernings of their type faces. The original idea is for this to be used with the iFontMaker on iPad.
+
 #
 # ─── MARKUP AND LAYOUT ──────────────────────────────────────────────────────────
 #

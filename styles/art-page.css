@@ -42,12 +42,11 @@
 
     #art-container {
         flex:               auto;
-        max-width:          100vw;
         box-sizing:         border-box;
         padding:            5rem;
         display:            flex;
-        max-width:          100vw;
         align-content:      flex-start;
+        max-height:         min-content;
     }
 
     #art-image {
@@ -57,6 +56,12 @@
         max-height:         auto;
         flex:               auto;
         image-rendering:    optimizeQuality;
+        max-height:         min-content;
+    }
+
+    #art-image-img {
+        width: 100%;
+        height: auto;
     }
 
     #art-description {

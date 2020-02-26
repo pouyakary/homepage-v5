@@ -17,7 +17,7 @@
  */
 
     #kary-nav-links {
-        color:              #eee;
+        color:              black;
         float:              right;
         font-size:          1.1rem;
         padding-left:       1.4rem;
@@ -38,7 +38,7 @@
 
     #kary-nav-links a {
         border-bottom:          0.2rem solid transparent;
-        color:                  #eee;
+        color:                  black;
         padding-bottom:         2.4rem;
         text-decoration:        none;
         transition-duration:    0.5s;
@@ -66,8 +66,8 @@
  */
 
     #kary-header {
-        background-color:       rgba( 0, 0, 0, 0.9);
-        box-shadow:             0 0 1.8rem rgba( 0, 0, 0, 0.9);
+        background-color:       white;
+        box-shadow:             white;
         overflow:               hidden;
         padding-bottom:         1.1rem;
         position:               fixed;

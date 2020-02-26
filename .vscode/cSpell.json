@@ -6,6 +6,7 @@
     "language": "en",
     // words - list of words to be always considered correct
     "words": [
+        "Andress",
         "Arendelle",
         "Audulus",
         "Azad",
@@ -21,6 +22,7 @@
         "Dribbble",
         "endfor",
         "Esfahbod",
+        "Giorgio",
         "Gleem",
         "Gouraud",
         "Gouraud's",

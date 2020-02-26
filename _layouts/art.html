@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    {% if page.collection %}
+        <title>"{{ page.title }}", from collection: {{ page.collection }} &bullet; Pouya Kary</title>
+        <meta property="og:title" content="{{ page.title }}, from collection: {{ page.collection }} • Pouya Kary">
+    {% else %}
+        <title>{{ page.title }} &bullet; Pouya Kary</title>
+        <meta property="og:title" content="{{ page.title }} • Pouya Kary">
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ site.baseurl }}styles/art-page.css">
+
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="https://kary.us{{ page.url }}/thumbnail.jpg">
+    <meta property="og:url" content="https://kary.us{{ page.url }}">
+</head>
+<body>
+    <div id="vertical-center-container">
+        <div id="art-container">
+            <div  id = "art-description" >
+                {{ page.description }} <!--br><br> <a href="">&#x2190; gallery</a-->
+            </div>
+            <img src = "https://inventory.kary.us/art/{{ page.image }}"
+                 alt = "{{ page.title }}, an artwork by Pouya Kary."
+                  id = "art-image">
+        </div>
+    </div>
+    <div id="art-copyright">
+        Copyright &copy; {{ page.year }}&mdash;present by <a href="https://kary.us/">Pouya Kary</a>. All rights reserved.
+    </div>
+</body>
+</html>

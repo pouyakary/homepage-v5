@@ -7,16 +7,26 @@
     {% if page.collection %}
         <title>"{{ page.title }}", from collection: {{ page.collection }} &bullet; Pouya Kary</title>
         <meta property="og:title" content="{{ page.title }}, from collection: {{ page.collection }} • Pouya Kary">
+        <meta name="twitter:title" content="{{ page.title }}, from collection: {{ page.collection }} • Pouya Kary" />
     {% else %}
         <title>{{ page.title }} &bullet; Pouya Kary</title>
         <meta property="og:title" content="{{ page.title }} • Pouya Kary">
+        <meta name="twitter:title" content="{{ page.title }} • Pouya Kary" />
     {% endif %}
 
     <link rel="stylesheet" href="{{ site.baseurl }}styles/art-page.css">
 
+    <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:description" content="{{ page.description }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description }}" />
     <meta property="og:image" content="https://kary.us{{ page.url }}/thumbnail.jpg">
+    <meta name="twitter:image" content="https://kary.us{{ page.url }}/thumbnail.jpg" />
     <meta property="og:url" content="https://kary.us{{ page.url }}">
+    <meta name="twitter:site" content="@elegantdrama" />
+    <meta name="twitter:site" content="@elegantdrama" />
+    <meta name="twitter:creator" content="@elegantdrama" />
+    <meta name="author" content="Pouya Kary">
 </head>
 <body>
     <div id="vertical-center-container">

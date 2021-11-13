@@ -356,7 +356,7 @@
       topic:
         - development
         - highlighter
-      website: https://github.com/pouyakary/marker-js
+      website: https://github.com/pouyakary/marker.js
       image: https://user-images.githubusercontent.com/2157285/40435382-c8292134-5ec5-11e8-86d9-c72f07de55a6.png
       year: 2014
       description: Marker was Arendelle's web syntax highlighter. It could generate a colored HTML from given Arendelle codes on the fly in the speed of O(n). It only supported Arendelle till version 1.18
@@ -365,7 +365,7 @@
       topic:
         - development
         - 3d
-      website: http://codes.kary.us/arendelle/sketchup-grid-importer
+      website: https://github.com/pouyakary/sketchup-grid-importer
       image: https://user-images.githubusercontent.com/2157285/40448548-15c257f6-5eeb-11e8-8d76-c54c6f5912fd.png
       year: 2015
       description: A tool that loads the rendered Arendelle blueprints using the Arendelle Grid Files into SketchUp for 3d Printing.
@@ -454,7 +454,7 @@
       topics:
         - font
         - kerning
-      website: http://toys.kary.us/kerning-tool/
+      website: http://kerning-tool.toys.kary.us/
       image: https://user-images.githubusercontent.com/2157285/74332970-352bd480-4dac-11ea-8e02-e750bd030040.png
       year: 2020
       description: This is a small tool designed to generate some good character combinations for each character so that the typeface designer can adjust the kernings of their type faces. The original idea is for this to be used with the iFontMaker on iPad.
@@ -472,7 +472,7 @@
         - markup
         - education
         - markdown
-      website: http://codes.kary.us/pageman/compiler
+      website: https://github.com/pouyakary/pageman
       image: https://user-images.githubusercontent.com/2157285/40428139-e2ac43b2-5eb4-11e8-9659-d25228d21b02.png
       year: 2016
       description: Pageman is a basic HTML processor designed to be used alongside the Jekyll to develop this website but grown into a thing for itself. Pageman let's one use Markdown, HTML, Legend and any other language in one file as well as providing C-like comments.
@@ -506,7 +506,7 @@
         - markup
         - language
         - markdown
-      website: http://codes.kary.us/pageman/legend
+      website: https://github.com/pouyakary/legend
       image: https://user-images.githubusercontent.com/2157285/40469497-00c06e8c-5f46-11e8-9def-babf620d6921.png
       year: 2016
       description: Legend is an extension to markdown that compiles to a very special HTML format optimized for side bar footnotes as in books. This website uses Legend for it's side notes.
@@ -518,7 +518,7 @@
         - markup
         - language
         - markdown
-      website: http://codes.kary.us/libraries/timpani
+      website: https://github.com/pouyakary/timpani
       image: https://user-images.githubusercontent.com/2157285/40472111-ccbfc97c-5f4d-11e8-8bf3-1b93983daa96.png
       year: 2017
       description: Timpani is a very small language like Markdown but with only a few of Markdown's tools, designed to be parsed in O(n) time for apps in React Native and similar other platforms where computation is expensive.
@@ -579,7 +579,7 @@
         - development
         - web
         - framework
-      website: http://codes.kary.us/libraries/cozy
+      website: https://github.com/pouyakary/cozy
       image: https://user-images.githubusercontent.com/2157285/40476346-12d1b01e-5f59-11e8-97e2-0708dcd5c29e.jpg
       year: 2018
       description: Cozy is a web framework that is not a framework but rather a base project. It implements a Functional Reactive Programming structure with Storage, View and mid-level toolings on TypeScript. It creates a project in such way that only a TypeScript compiler be enough for compiling/bundling and minimizing the code.
@@ -595,7 +595,7 @@
       topics:
         - development
         - music
-      website: http://codes.kary.us/libraries/tambourine
+      website: https://github.com/pouyakary/tambourine
       image: https://user-images.githubusercontent.com/2157285/40477924-f063778e-5f5c-11e8-867b-ca295a802f40.jpg
       year: 2017
       description: Tambourine is a framework for writing musical theory software. Main goal is to have a library capable of computing musical theory so that one can write a Harmonizer Engine on top of it.
@@ -657,7 +657,7 @@
         - text
         - demo
         - game
-      website: http://codes.kary.us/toys/series
+      website: https://github.com/pouyakary/series
       image: https://user-images.githubusercontent.com/2157285/40537540-72b3f5b6-6024-11e8-95d0-b17794eff3d1.png
       year: 2015
       description: Series is a game in which one has to find the formula of a series. It's made using Kary Framework and Monodraw to show the power of the textual interface creation.
@@ -668,7 +668,7 @@
         - terminal
         - framework
         - text
-      website: http://codes.kary.us/libraries/go-corelib
+      website: https://github.com/pouyakary/go-corelib
       image: https://user-images.githubusercontent.com/2157285/40479222-55380e38-5f60-11e8-831a-f52bac128f20.jpg
       year: 2017
       description: Go Corelib is a reimplementation of the original Kary Framework for the Go Language with some extra goodies and new capabilities
@@ -678,7 +678,7 @@
         - development
         - terminal
         - language
-      website: http://codes.kary.us/libraries/clavinet
+      website: https://github.com/pouyakary/clavinet
       image: https://user-images.githubusercontent.com/2157285/40428770-4ce30292-5eb6-11e8-8b62-e18a56555ed4.jpg
       year: 2017
       description: Clavinet is a command line argument parser with its own language rules. It reconstructs the array of args given by the os and uses its own parser to parse it. Given that it can give command line apps abilities like arrays.
@@ -727,7 +727,7 @@
         - browser
         - fork
       image: https://cloud.githubusercontent.com/assets/2157285/21816130/3bcfae62-d774-11e6-884b-694a3e5c8ade.png
-      website: http://codes.kary.us/apps/pirate
+      website: https://github.com/pouyakary/pirate
       year: 2017
       description: Pirate is a fork of <a href="https://brave.com/">Brave Browser</a> that is just a little bit more pretty because I found the original browser unbearable.
 
@@ -775,7 +775,7 @@
         - terminal
         - fork
       image: https://cloud.githubusercontent.com/assets/2157285/21894736/849c3624-d8f5-11e6-800f-db999f6ac713.png
-      website: http://codes.kary.us/apps/telephone
+      website: https://github.com/pouyakary/telephone
       year: 2017
       description: A fork of <a href="https://github.com/railsware/upterm">Upterm</a> Terminal with a few goodies like a much better auto-suggestion algorithm supporting T9 search and a light and fun theme.
 

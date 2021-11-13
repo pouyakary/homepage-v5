@@ -395,6 +395,31 @@
       description: An extension to provide Arendelle language support for Visual Studio Code. This package provides syntax highlighting as well as context-aware intelliSense powered by the Gerda Core.
 
 #
+# ─── FINANCE ────────────────────────────────────────────────────────────────────
+#
+
+- topic: Finance
+  description: I was challenged by the Aurox LLC to reverse engineer TradingView's Pine Language and create a new platform capable of integrating Pine into Aurox's Terminal and alert services. The result of my work was SugarPine and Pine Forest.
+  projects:
+    - name: SugarPine
+      topics:
+        - finance
+        - tradingview
+        - pine
+      image: https://user-images.githubusercontent.com/2157285/141649142-42a6c98c-4c18-4bef-b75d-7fa16441b9a6.png
+      year: 2019
+      description: SugarPine was a Pine Script compiler compatible with Pine V2, V3, and V4. It had a type system capable of type checking, inferring and casting the types of Pine. A compile type evaluator that could partially run the static portions of Pine, builtin dictionary and implementation of the standard library, and a system for integrating platform functions into Pine.
+
+   - name: Pine Forest
+      topics:
+        - finance
+        - tradingview
+        - pine
+      image: https://user-images.githubusercontent.com/2157285/141649142-42a6c98c-4c18-4bef-b75d-7fa16441b9a6.png
+      year: 2019
+      description: Pine Forest was the runtime attached to the SugarPine compilations. It enabled runtime error handling, dynamic type casting, platform integrations and custom behavior inside of the TradingView's charting library that was the major compilation target for the SugarPine
+
+#
 # ─── TEXT EDITORS ───────────────────────────────────────────────────────────────
 #
 

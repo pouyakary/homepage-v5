@@ -786,6 +786,15 @@
       year: 2017
       description: Language support for the <a href="https://racket-lang.org/">Racket Language</a> that has better colorization which is heavily supported by the Pro Colors and also having a context-aware auto-compilation support for Racket.
 
+    - name: Rod
+      topic:
+        - language
+        - ternery
+      website: https://github.com/pouyakary/rod
+      image: https://user-images.githubusercontent.com/2157285/141648200-2cfb1c2c-4978-4ed5-a61f-59938df79f42.png
+      year: 2019
+      description: Rod is a mini language that compiles to ternary operator. Original use of it was to compile complicated rules for the Notion platform, but it can be easily used for any other language since you define the grammar for the target language's ternary for it.
+
     - name: Telephone
       topics:
         - electron

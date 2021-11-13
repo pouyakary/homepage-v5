@@ -29,7 +29,7 @@
       topics:
         - research
         - development
-      website: http://codes.kary.us/orchestra/hall
+      website: https://github.com/pouyakary/orchestra
       image: https://user-images.githubusercontent.com/2157285/40280841-3ac8e7b0-5c6e-11e8-821b-fd4ad150ce69.png
       year: 2016
       description: Orchestra Studio is an IDE designed specially for Orchestra. It has an editor for Orchestra, Contains all the compilers used to compile and decompile Orchestra, Comes with a playground to write testing for the pattern, an offilne documentation that is integrated to the visual editor, and has extensions for other editors so that one can open a regexp from those editors in Orchestra and edit them.
@@ -37,7 +37,7 @@
     - name: Concerto Compiler
       topics:
         - development
-      website: http://codes.kary.us/orchestra/concerto
+      website: https://github.com/pouyakary/concerto
       image: https://user-images.githubusercontent.com/2157285/40433736-eb600004-5ec1-11e8-89cc-23c186c0b672.png
       year: 2016
       description: Concerto is an Orchestra Decompiler that compiles Regular Expressions written in the ECMAScript Specification to Orchestra Language. It comes bundled with the Orchestra Studio.
@@ -63,7 +63,7 @@
         - cgi
       image: https://user-images.githubusercontent.com/2157285/40540554-d2f77372-602d-11e8-8429-57c9fb1b479d.png
       year: 2018
-      website: https://kary.us/toys/shaders/
+      website: https://shaders.toys.kary.us/
       description: I write GLSL shaders from time to time and this is a small gallery containing them. You may find them fun or dumb! it's notihng serious.
 
     - name: Quartz Compositions
@@ -99,7 +99,7 @@
       topics:
         - research
         - development
-      website: http://codes.kary.us/karyscript/compiler
+      website: https://github.com/pouyakary/karyscript
       image: https://user-images.githubusercontent.com/2157285/34886804-85f5d0a8-f7d9-11e7-932b-7253407e3522.png
       year: 2017
       description: KaryScript's compiler is a JavaScript compiler bundeled to one file. It can be embedded to any kind of JavaScript runtime such as Web, Node and Rhino and compile KaryScript to ES6. It also comes with a command line interface that can act as a language server too.
@@ -107,7 +107,7 @@
     - name: KaryScript Monaco
       topics:
         - development
-      website: http://codes.kary.us/karyscript/monaco
+      website: https://github.com/pouyakary/karyscript-monaco
       image: https://cloud.githubusercontent.com/assets/2157285/23721115/0da4236a-0456-11e7-8257-34316f49f713.png
       year: 2017
       description: An editor based on Microsoft's <a href="https://github.com/microsoft/monaco-editor">Monaco Editor</a> that comes with Kary Pro Colors, KaryScript Monarch Definitions and Monaco Comment IV integrations which means it's a full featured editor for KaryScript that can be integrated to web pages.
@@ -177,7 +177,7 @@
         - themes
         - themex
       image: https://user-images.githubusercontent.com/2157285/40503504-7fce4250-5fa3-11e8-9ead-1ac569c941ec.png
-      website: http://codes.kary.us/procolors/definitions
+      website: https://github.com/pouyakary/procolors
       year:
       year: 2016
       description: Pro Colors is a color scheme for code highlighting. It's designed to have a look that is pretty and feels like candy because most developer tools do not look like pretty, It's designed to have a homogenous color distribution and in such way that pretty colors are near each other. It's also designed to support as much as tokens as possible to have to most accurate coloring.
@@ -198,7 +198,7 @@
         - themex
         - color-scheme
       image: https://user-images.githubusercontent.com/2157285/40503609-e32e22ac-5fa3-11e8-8760-21f885b0d65c.png
-      website: http://codes.kary.us/procolors/themeX
+      website: https://github.com/pouyakary/themeX
       year: 2016
       description: themeX is a color scheme generator. It solves some of the major problems in composing cross-editor color schemes by defining a single file that contains tokens, color schemes, and let's the user define color variables. Using this method one can define multiple color schemes via one theme, for example a theme that has Light/Dark versions is easier to be made in themeX. themeX then compiles the theme for different editors making it easy to mailing a singular code-base.
 
@@ -212,7 +212,7 @@
       topics:
         - graph
         - math
-      website: http://codes.kary.us/apps/graph
+      website: https://github.com/pouyakary/graph
       image: https://cloud.githubusercontent.com/assets/2157285/17836282/0665fe62-67a2-11e6-9c78-c4d4acb87535.png
       year: 2016
       description: A graph programming environment with a powerful graphing engine, powerful high-level API, mathematica notebook like interactive programming, code editor and plugin support.
@@ -221,7 +221,7 @@
       topics:
         - research
         - development
-      website: https://kary.us/toys/numerax
+      website: https://numerax.toys.kary.us
       image: https://user-images.githubusercontent.com/2157285/40322317-3b801758-5d47-11e8-90d5-8b4b967b4cba.png
       year: 2015
       description: Working with mathematics in computers has shown me that most people have a hard time to change the notation of math to computer language. numeraX is an experiment to find out to which extent is it possible to develop a language like math.
@@ -229,7 +229,7 @@
     - name: Octobass
       topics:
         - graph
-      website: http://codes.kary.us/libraries/octobass
+      website: https://github.com/pouyakary/octobass
       image: https://user-images.githubusercontent.com/2157285/40444802-94feded8-5edf-11e8-936b-a33b59516c08.jpg
       year: 2018
       description: Octobass is a dependency execution framework for developers. It gets a dependency graph and then executes a function on each node by first evaluating the dependencies.
@@ -238,7 +238,7 @@
       topics:
         - graph
         - math
-      website: https://kary.us/toys/workout
+      website: https:workout.toys.kary.us
       image: https://user-images.githubusercontent.com/2157285/40441072-286a9c80-5ed5-11e8-9d17-80b89c080956.png
       year: 2018
       description: Workout is an experiment with the idea of dependent equations. Say <code>A = x + 2</code> is a given equation, then it depends on <code>x</code>. Workout computes a dependency graph and then tries to compute as equations as possible.
@@ -267,7 +267,7 @@
       topics:
         - research
         - development
-      website: https://kcs.library.kary.us
+      website: https://github.com/pouyakary/coding-standards
       image: https://static.notion-static.com/5f2608d2-36f6-450a-b8d6-36abc6335b58/Screen_Shot_1396-12-11_at_2.21.50_AM.png
       year: 2014
       description: Kary Coding Standard is a coding style designed for readablity and beauty. It has a set of rules that eliminates many of the common readability problems and also incoporates the use of Kary Comments to visually orgnize the structure of the code.
@@ -276,7 +276,7 @@
       topics:
         - research
         - development
-      website: https://kcs.library.kary.us/tools/righteous
+      website: https://github.com/pouyakary/righteous
       image: https://user-images.githubusercontent.com/2157285/45600237-99f3cb80-ba0e-11e8-845b-819151d5202c.png
       year: 2016
       description: Righteous is a code formatter for CSS that implements the Kary Coding Standards. It reads the code into an AST and then completely rewrites it into KCS-proof style making it the easiest way to fully implemnet the standard.
@@ -296,7 +296,7 @@
         - development
         - comment
         - commentiv
-      website: http://codes.kary.us/comment/3
+      website: https://github.com/pouyakary/comment-3
       image: https://user-images.githubusercontent.com/2157285/40885625-3ce6a3bc-673f-11e8-8d6e-53970b8a1626.png
       year: 2015
       description: First edition of Kary Comment Generators that was designed for macOS with native technologies. It soon proved to be useful and the multi platform Comment IV was made.
@@ -305,7 +305,7 @@
       topics:
         - research
         - development
-      website: https://kary.us/comment
+      website: https://github.com/pouyakary/comment-iv
       image: https://user-images.githubusercontent.com/2157285/40504617-01b5f9e0-5fa7-11e8-953c-81ffe65d11c5.png
       year: 2015
       description: Comment IV is a web app for generating Kary Comments, It supports every comment format and most of the supported languages.
@@ -332,7 +332,7 @@
         - language-tools
         - interpreter
       image: https://user-images.githubusercontent.com/2157285/40434541-d6f0fdb0-5ec3-11e8-81e4-732657948114.png
-      website: http://codes.kary.us/arendelle/swifty
+      website: https://github.com/pouyakary/swifty
       year: 2015
       description: Swifty was a Swift/Objective-C based interpreter for Arendelle that powered Arendelle for iOS and the also had a macOS command line shell. It supported Arendelle up to version 2XIV
 
@@ -341,13 +341,13 @@
         - development
       image: https://user-images.githubusercontent.com/2157285/40434879-9da18376-5ec4-11e8-981d-5f0323f2263f.png
       year: 2015
-      website: http://codes.kary.us/arendelle/arcco
+      website: https://github.com/pouyakary/arcco
       description: Arcco was a fork of <a href="https://github.com/jashkenas/docco">Docco</a> by Jeremy Ashkenas specially designed for Arendelle
 
     - name: Gerda
       topic:
         - development
-      website: http://codes.kary.us/arendelle/gerda
+      website: https://github.com/pouyakary/gerda
       image: https://user-images.githubusercontent.com/2157285/40435189-5c0bc574-5ec5-11e8-85d7-a175d8ee151c.png
       year: 2016
       description: Garda is was the stand alone context-aware autosuggestion server for Arendelle. Gerda scanned the code without parsing it in a linear way and therefore it could provide suggestions by the speed of O(n)
@@ -356,7 +356,7 @@
       topic:
         - development
         - highlighter
-      website: http://codes.kary.us/arendelle/marker
+      website: https://github.com/pouyakary/marker-js
       image: https://user-images.githubusercontent.com/2157285/40435382-c8292134-5ec5-11e8-86d9-c72f07de55a6.png
       year: 2014
       description: Marker was Arendelle's web syntax highlighter. It could generate a colored HTML from given Arendelle codes on the fly in the speed of O(n). It only supported Arendelle till version 1.18

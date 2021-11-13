@@ -606,6 +606,18 @@
 
 - topic: Textual Interfaces
   projects:
+    - name: TextGraphic
+      topics:
+        - graphics
+        - terminal
+        - ui
+        - string
+        - text
+        - framework
+      image: https://user-images.githubusercontent.com/2157285/141647565-c63ab118-ddbb-4418-aa96-c8dc65b652ef.png
+      year: 2021
+      website: https://github.com/pouyakary/textgraphic
+      description: TextGraphic is an advanced graphical library and my latest attempt to create powerful graphics with textual formats. It provides layers, transparency, colors, shapes, text justification, tables and layouts, primitive shapes, ray-tracing, et cetera and for many different target platforms including ANSI Terminals, Web, and SVG.
     - name: Kary Framework
       topics:
         - development

@@ -77,6 +77,17 @@
       website: https://www.youtube.com/watch?v=KMKaICh1qH4
       description: I love macOS's Quartz technology and I use it to create creative visualizations and graphics test, it's also damn handy at connecting different graphics tools like GLSL, OpenCL, CoreImage. For what it's worth I use my graphics as personal screen savers and so there's a repository of these screen savers.
 
+    - name: Pink!
+      topics:
+        - processing
+        - graphics
+        - web
+        - toy
+      image: https://user-images.githubusercontent.com/2157285/141645341-094a8e45-56ae-4eca-af9e-2117ee73c1d4.png
+      year: 2021
+      website: https://pink.pouya.us/
+      description: Pink is a little web playgrond that you can draw on and the ink will animate. You can play and have your notes on it. This is a toy I made with Zea to learn some processing :)
+
 #
 # ─── KARYSCRIPT ─────────────────────────────────────────────────────────────────
 #
